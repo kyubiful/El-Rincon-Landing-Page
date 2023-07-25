@@ -26,8 +26,8 @@ export const Gallery = () => {
   }
 
   return (
-    <div className='bg-green-200 -skew-y-3 z-0 relative'>
-      <div className='max-w-4xl sm:w-3/4 flex justify-center m-auto -mt-14 py-44 skew-y-3' id='gallery'>
+    <div className='bg-green-200 -skew-y-3 z-0 relative -mt-14 py-32'>
+      <div className='max-w-4xl sm:w-3/4 flex justify-center m-auto py-24 skew-y-3' id='gallery'>
         <div className='flex flex-col justify-center items-center gap-10 w-full'>
           <div className='flex justify-center items-center mx-12'>
             <h2 className='text-6xl text-center text-gray-700'>Galería de Fotos</h2>

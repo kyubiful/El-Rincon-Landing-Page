@@ -76,7 +76,7 @@ export const Contact = () => {
 
 }
 return (
-  <div className='pt-32 -mt-16 lg:pt-64 lg:-mt-16 pb-44 max-w-4xl m-auto flex justify-around items-center gap-10 flex-col-reverse lg:flex-row' id='contact'>
+  <div className='pt-32 -mt-16 lg:pt-32 lg:-mt-16 pb-32 max-w-4xl m-auto flex justify-around items-center gap-10 flex-col-reverse lg:flex-row' id='contact'>
     <div className='flex flex-col justify-center items-center sm:items-start self-center sm:w-[400px] gap-6'>
       <div className='w-3/4'>
         <h3 className='text-2xl mb-2 underline'>TE ESPERAMOS</h3>

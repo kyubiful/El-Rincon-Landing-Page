@@ -13,7 +13,7 @@ export const Opinion = ({ name, text, stars }) => {
   }
 
   return (
-    <div className='flex flex-col justify-center items-center h-full max-w-2xl p-12'>
+    <div className='flex flex-col justify-center items-center h-full px-12 py-28 max-w-2xl m-auto'>
         <Avatar
           showFallback
           isBordered

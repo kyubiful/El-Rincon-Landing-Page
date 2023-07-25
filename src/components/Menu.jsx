@@ -5,10 +5,6 @@ import { House } from './Icons'
 export const Menu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const pressMenu = () => {
-    setIsMenuOpen(false)
-  }
-
   return (
     <Navbar 
       className='-mb-16'
@@ -22,29 +18,29 @@ export const Menu = () => {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link color="foreground" href="#home">
+          <Link color="foreground" href="/#home">
             Inicio
           </Link>
         </NavbarItem>
         <NavbarItem isActive>
-          <Link color="success" href="#gallery" aria-current="page">
+          <Link color="success" href="/#gallery" aria-current="page">
             Fotos
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#info">
+          <Link color="foreground" href="/#info">
             Características
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link color="foreground" href="#opinion">
+          <Link color="foreground" href="/#opinion">
             Opiniones 
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className='hidden sm:flex' justify="end">
         <NavbarItem>
-          <Button as={Link} color="success" href="#contact" variant="flat">
+          <Button as={Link} color="success" href="/#contact" variant="flat">
             Contacto
           </Button>
         </NavbarItem>
@@ -57,27 +53,27 @@ export const Menu = () => {
       </NavbarContent>
       <NavbarMenu>
         <NavbarMenuItem>
-          <Link onPress={() => setIsMenuOpen(false)} color="foreground" href="#home">
+          <Link onPress={() => setIsMenuOpen(false)} color="foreground" href="/#home">
             Inicio
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem isActive>
-          <Link onPress={() => setIsMenuOpen(false)} color="success" href="#gallery" aria-current="page">
+          <Link onPress={() => setIsMenuOpen(false)} color="success" href="/#gallery" aria-current="page">
             Fotos
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link onPress={() => setIsMenuOpen(false)} color="foreground" href="#info">
+          <Link onPress={() => setIsMenuOpen(false)} color="foreground" href="/#info">
             Características
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Link  onPress={() => setIsMenuOpen(false)} color="foreground" href="#opinion">
+          <Link  onPress={() => setIsMenuOpen(false)} color="foreground" href="/#opinion">
             Opiniones 
           </Link>
         </NavbarMenuItem>
         <NavbarMenuItem>
-          <Button onPress={() => setIsMenuOpen(false)} as={Link} color="success" href="#contact" variant="flat">
+          <Button onPress={() => setIsMenuOpen(false)} as={Link} color="success" href="/#contact" variant="flat">
             Contacto
           </Button>
         </NavbarMenuItem>
