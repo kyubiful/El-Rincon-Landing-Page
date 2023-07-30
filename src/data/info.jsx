@@ -8,7 +8,7 @@ export const INFO = [
   },
   {
     id: 1,
-    text: '5 Habitaciones',
+    text: '3 Habitaciones',
     icon: <Door width={30} height={30}/>
   },
   {

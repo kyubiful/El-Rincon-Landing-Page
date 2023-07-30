@@ -8,13 +8,15 @@ import { Contact } from '../components/Contact'
 import { Opinions } from '../components/Opinions'
 import { Footer } from '../components/Footer'
 import { Toaster } from 'sonner'
+import { MobileMenu } from '../components/MobileMenu'
 
 import '../styles.css'
 ---
 
 <Layout title="Casa Rural el Rincón">
 	<main>
-		<Menu client:load/>
+		<Menu client:only/>
+		<MobileMenu client:only/>
 		<Home />
 		<Gallery client:idle />
 		<HouseInfo />

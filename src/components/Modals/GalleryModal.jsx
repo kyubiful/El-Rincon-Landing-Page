@@ -24,7 +24,7 @@ export const GalleryModal = ({ imageOpenId, images, isOpen, handleClose }) => {
 
   return (
     <Modal 
-      size='xl' 
+      size='lg' 
       isOpen={isOpen} 
       onClose={handleClose} 
       classNames={{ closeButton: 'bg-white' }}
